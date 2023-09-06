@@ -31,7 +31,7 @@ class Hero{
     required this.isAlive
 
   });
-
+//este ejemplo ejemplifica como mandar a llamar un dato en formato json el recibe un parametro de tipo map json y recibe los strings el cual posee ?? el cual pregunta que si no existe dato enseña el mensaje
   Hero.fromJson(Map<String,dynamic>json)
       : name = json['name'] ?? 'No name found',
         power = json['power'] ?? 'No power found',
